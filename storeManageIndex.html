@@ -32,5 +32,61 @@
     </nav>
 </section>
 <p class="h1">Mange Store</p>
+
+
+<section class="container m-md-4">
+    <section class="row">
+        <div class="col-6 bg-success p-2 text-dark bg-opacity-25">
+            <form>
+                <fieldset>
+                    <legend class="bg-success p-2 text-white bg-opacity-75">Search Items</legend>
+                    <div class="mb-3">
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Search here..">
+                    </div>
+                    <div class="mb-3">
+                        <select id="disabledSelect" class="form-select">
+                            <option>Name</option>
+                            <option>ID</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="col-6">
+            <button class="btn btn-warning">New Item</button>
+            <button class="btn btn-secondary">View All</button>
+        </div>
+    </section>
+
+    <section class="row p-2">
+        <button class="btn btn-danger col-1 mx-1">Delete</button>
+        <button  class="btn btn-success col-1 mx-1">Details</button>
+        <button  class="btn btn-primary col-1 mx-1">Clear</button>
+    </section>
+
+    <section class="row p-2">
+        <table class="table table-striped table-info">
+            <thead>
+            <tr>
+                <th scope="col">Item Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Salt</th>
+                <td>50</td>
+                <td>50</td>
+                <td>25000</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+</section>
 </body>
 </html>
