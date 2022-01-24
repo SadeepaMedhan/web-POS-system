@@ -48,9 +48,9 @@
 
 <section class="container-fluid">
     <section  class="row pe-4 ps-4">
-        <div class="col shadow-lg  mb-4  bg-body border rounded  border-2 me-5 mt-3 ">
+        <div class="col shadow-lg  mb-4  bg-body border rounded  border-2 me-5 mt-3 col-12 col-sm-12 col-md-8 col-lg-4 col-xl-3">
             <form class="row g-3">
-                <legend class="bg-success p-2 text-white bg-opacity-75">Invoice Details</legend>
+                <legend class="bg-success p-2 text-white bg-opacity-75">Customer Details</legend>
                 <div class="col-md-6">
                     <label for="inputOrderID" class="form-label">Order ID :</label>
                     <input type="email" class="form-control" id="inputOrderID" placeholder="D001">
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-6">
                     <label for="inputName" class="form-label">Name :</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Hansi">
+                    <input type="text" class="form-control" id="inputName" placeholder="Nimal">
                 </div>
                 <div class="col-6">
                     <label for="inputSalary" class="form-label">Salary :</label>
@@ -86,9 +86,9 @@
                 </div>
             </form>
         </div>
-        <div class="col-5 shadow-lg  mb-4  bg-body border rounded  border-2 me-5 mt-3 ">
+        <div class="col-5 shadow-lg  mb-4  bg-body border rounded  border-2 me-5 mt-3 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5">
             <form class="row g-3">
-                <legend class="bg-success p-2 text-white bg-opacity-75">Item Select</legend>
+                <legend class="bg-success p-2 text-white bg-opacity-75">Select Items</legend>
                 <div class="col-md-6">
                     <label for="inputItem" class="form-label">Item :</label>
                     <select id="inputItem" class="form-select">
@@ -104,11 +104,11 @@
                 </div>
                 <div class="col-5">
                     <label for="inputItemName" class="form-label">Item Name :</label>
-                    <input type="email" class="form-control" id="inputItemName" placeholder="Keerisamba 5kg">
+                    <input type="email" class="form-control" id="inputItemName" placeholder="Salt 1kg">
                 </div>
                 <div class="col-4">
                     <label for="inputPrice" class="form-label">Price :</label>
-                    <input type="text" class="form-control" id="inputPrice" placeholder="525.00">
+                    <input type="text" class="form-control" id="inputPrice" placeholder="50.00">
                 </div>
                 <div class="col-3">
                     <label for="inputQtyOnHand" class="form-label">QtyOnH :</label>
@@ -119,19 +119,19 @@
                     <input type="text" class="form-control" id="inputOrderQty" placeholder="2">
                 </div>
                 <div class="col-12" >
-                    <button class="btn btn-sm btn-danger me-2" type="button">Add Item</button>
+                    <button class="btn btn-sm btn-secondary me-2" type="button">Add Item</button>
                 </div>
             </form>
         </div>
-        <div class="col-3 shadow-lg p-3 mb-4  bg-body border rounded  border-2 mt-3  ">
+        <div class="col-3 shadow-lg p-3 mb-4  bg-body border rounded  border-2 mt-3  col-12 col-sm-12 col-md-8 col-lg-5 col-xl-3">
             <form class="row g-3">
                 <div>
-                    <h3 class="text-primary">Total : 1050 Rs/=</h3>
-                    <h3 class="text-danger">SubTotal : 945 Rs/=</h3>
+                    <h3 class="text-primary">Total : 100 Rs/=</h3>
+                    <h3 class="text-danger">SubTotal : 95 Rs/=</h3>
                 </div>
                 <div class="col-md-6">
                     <label for="inputCash" class="form-label">Cash</label>
-                    <input type="email" class="form-control" id="inputCash" placeholder="5000">
+                    <input type="email" class="form-control" id="inputCash" placeholder="500">
                 </div>
                 <div class="col-md-6">
                     <label for="inputDiscount" class="form-label">Discount</label>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="col-12">
                     <label for="inputBalance" class="form-label">Balance</label>
-                    <input type="text" class="form-control" id="inputBalance" placeholder="4055">
+                    <input type="text" class="form-control" id="inputBalance" placeholder="405">
                 </div>
                 <div class="col-12 mx-auto" style="width: 100px">
                     <button  id="purchaseBtn" type="submit" class="btn btn-sm btn-success">Purchase</button>
@@ -147,7 +147,7 @@
             </form>
         </div>
         <div class=" shadow-lg">
-            <table class="table table-bordered table-hover">
+            <table class="table table-bordered table-hover m-0">
                 <thead class="table-secondary">
                 <tr>
                     <th>Item Code</th>
@@ -160,7 +160,7 @@
                 <tbody>
                 <tr class="table-hover fw-light">
                     <th>P001</th>
-                    <th>Salt 5kg</th>
+                    <th>Salt 1kg</th>
                     <th>50</th>
                     <th>2</th>
                     <th>100</th>
